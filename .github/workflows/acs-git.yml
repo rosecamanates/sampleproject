@@ -1,0 +1,10 @@
+name: acs730@workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs_on: ubuntu-latest
+    steps:
+      - name: print hello
+        run: echo "hello students"
+      - name: print end
+        run: echo "end of the file"
